@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .main{
+            width: 98%;
+            margin-left: 1%;
+            padding: 2%;
+            overflow: hidden;
+        }
+        .main>div{
+            width: 30%;        /*百分比值得要求：25% < xx%+padding+margin < 33%，才能*/
+            float: left;          /*正好一行三个。*/  
+            padding-bottom: 30%;
+            margin: 1%;
+            background-color:hsl(60, 100%, 50%);
+            border-radius: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="item1"></div>
+        <div id="item2"></div>
+        <div id="item3"></div>
+        <div id="item4"></div>
+        <div id="item5"></div>
+        <div id="item6"></div>
+        <div id="item7"></div>
+        <div id="item8"></div>
+        <div id="item9"></div>
+    </div>
+</body>
+</html>
